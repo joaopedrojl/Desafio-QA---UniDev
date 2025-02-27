@@ -34,6 +34,7 @@ function gerarSenhas (tamanho, tipo) {
     return senha;
 }
 console.log(gerarSenhas(2, "numerico")) // Para exibir a mensagem de erro
+console.log(gerarSenhas(5, "complexo")) // Mensagem de tipo inválido
 console.log(gerarSenhas(10, "numerico")) // 
 console.log(gerarSenhas(15, "alfanumerico")) 
 console.log(gerarSenhas(20, "especial")) 
